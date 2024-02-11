@@ -11,8 +11,11 @@ yes.addEventListener("click", function(){
 	yes.remove();
 	no.remove();
 	setTimeout(function(){
-		location.replace("https://youtu.be/_-YjO6KfEMk?t=47")
-	}, 3000);
+		const sound = document.createElement("audio");
+		sound.src = "./music.mp3";
+		sound.autoplay = "autoplay";
+		document.querySelector("#container").appendChild(sound);
+	}, 2000);
 });
 
 no.addEventListener("click", function(){
