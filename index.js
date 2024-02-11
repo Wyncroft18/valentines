@@ -10,6 +10,9 @@ yes.addEventListener("click", function(){
 	document.querySelector("h3").remove();
 	yes.remove();
 	no.remove();
+	setTimeout(function(){
+		location.replace("https://youtu.be/_-YjO6KfEMk?t=47")
+	}, 3000);
 });
 
 no.addEventListener("click", function(){
