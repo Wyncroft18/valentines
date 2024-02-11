@@ -1,0 +1,20 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	background-color: #fca5a5;
+}
+
+#container {
+	height: 300px;
+	background-color: whitesmoke;
+	border-radius: 32px;
+}
+
+#container button {
+	border-radius: 8px;
+}
