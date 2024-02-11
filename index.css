@@ -16,5 +16,12 @@ body {
 }
 
 #container button {
+	border: solid 2px;
 	border-radius: 8px;
+}
+
+#container button:hover {
+	border-color: #fca5a5;
+	background-color: #fca5a5;
+	color: whitesmoke;
 }
