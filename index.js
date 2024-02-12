@@ -23,8 +23,8 @@ no.addEventListener("click", function(){
 	document.querySelector("h3").remove();
 	yes.remove();
 	no.remove();
-	setTimeout(noMessage, 2000);
+	setTimeout(noMessage, 3000);
 	setTimeout(function(){
 		location.reload();
-	}, 4000);
+	}, 5000);
 });
